@@ -78,6 +78,7 @@ const ImageWrapper = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  border-radius: 16px 16px 4px 4px;
 `;
 
 const Row = styled.div`
@@ -112,7 +113,7 @@ const Flag = styled.div`
   height: 32px;
   line-height: 32px;
   padding: 0px 10px;
-  font-size: ${14 / 18}rem;
+  font-size: ${14 / 16}rem;
   font-weight: ${WEIGHTS.bold};
   background: red;
   color: ${COLORS.white};
